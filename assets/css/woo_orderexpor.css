@@ -1,0 +1,123 @@
+.SWOEI_export_wrapper div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.SWOEI_export_wrapper div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.SWOEI_export_wrapper div.tab button:hover {
+    background-color: #ddd;
+}
+
+.SWOEI_export_wrapper div.tab button.active {
+    background-color: #ccc;
+}
+
+.SWOEI_export_wrapper .tabcontent {
+    display: none;
+    padding: 14px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+div.SWOEI_export_wrapper{	
+	margin: 30px 4% 15px;
+}
+.SWOEI_export_wrapper .form_fields{
+	margin: 10px 0;
+}
+.SWOEI_export_wrapper .order_mapping table {
+	border-collapse: collapse;
+    border: 1px solid gray;
+	width: 100%;
+}
+.SWOEI_export_wrapper .order_mapping select{
+	max-width: 100%;
+}
+.SWOEI_export_wrapper .order_mapping tr, .SWOEI_export_wrapper .order_mapping td, .SWOEI_export_wrapper .order_mapping th {	
+    border: 1px solid gray;
+	padding: 3px 5px;
+	max-width: 150px !important;
+}
+.SWOEI_export_wrapper .SWOEI_loader img{
+	width: 29px;
+    height: 29px;
+    text-align: center;
+}
+.SWOEI_export_wrapper .SWOEI_loader label{
+	top: -12px;
+    position: relative;
+    left: 10px;
+	color: green;
+}
+.SWOEI_export_wrapper .msg_box {
+    color: green;
+	margin: 0 10%;
+	min-height:42px;
+}
+.SWOEI_export_wrapper button#refresh_orderlist {
+    float: right;
+}
+.SWOEI_export_wrapper .order_map_submit{
+	float:left;
+}
+.db_backup_wrapper{
+	margin-bottom:20px;
+}
+.db_backup_wrapper input.dbbackup_button{
+	float:right;
+}
+
+.SWOEI_export_wrapper #export select,.SWOEI_export_wrapper #import select {
+    min-width: 138px !important;
+    padding-left: 2px;
+}
+.SWOEI_export_wrapper #export .form_fields label, .SWOEI_export_wrapper #import .form_fields label{
+    float: left;
+    width: 130px !important;
+}
+.SWOEI_notice.notice-red {
+    color: red;
+}
+span.select_multipleselect_area li {
+    float:left;
+	padding: 0px 6px;
+	top: -6px;
+    position: relative;
+	background-color: #e4e4e4;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+.SWOEI_export_wrapper .form_fields  { clear: both; }
+.SWOEI_export_wrapper span.select_multipleselect_area {
+    float: left;
+    clear: both;
+    position: absolute;
+    margin-left:10px;
+}
+.SWOEI_export_wrapper span.select_multipleselect_area li  span{
+	color:red;
+	cursor: pointer;
+	color: #999;
+	display: inline-block;
+	font-weight: 700;
+	margin-right: 2px;
+}
+@media screen and (max-width: 767px){
+	
+.SWOEI_export_wrapper span.select_multipleselect_area {  position: relative; }	
+
+.SWOEI_export_wrapper #export select, .SWOEI_export_wrapper #import select {
+    min-width: 152px !important;
+}
+}
